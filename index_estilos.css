@@ -1,0 +1,33 @@
+header, footer{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: rgb(211, 235, 233);
+color: rgb(24, 49, 42);
+text-align: center;
+padding: 0.9rem;
+
+}
+nav{
+    background-color: rgb(215, 254, 255);
+    color: black;
+padding: 1.5rem;
+display: flex;
+justify-content: center;
+gap: 2.5rem;
+}
+nav a{
+color: rgb(0, 0, 0);
+background-color: rgb(208, 255, 255);
+
+
+}
+
+aside {
+background-color: rgb(187, 238, 238);
+padding: 1rem;
+border-left: 4px;
+
+}
+
+main {
+    background-color: rgb(220, 250, 245);
+}
