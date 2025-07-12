@@ -1,16 +1,16 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-     background-color: rgb(221, 19, 19);
+     background-color: rgb(177, 48, 48);
      } 
     }
      header, footer {
      background-color: black;
-     color: rgb(0, 134, 123);
+     color: rgb(233, 52, 52);
      text-align: center;
      padding: 0.9rem;
      }
      nav {
-         background-color: red;
+         background-color: rgb(116, 18, 18);
          padding: 1rem;
          display: flex;
          justify-content: center;
@@ -27,11 +27,11 @@ body {
  gap: 2rem;
  }
  strong {
- color: red;
+ color: rgb(161, 18, 18);
  }
  blockquote{
  font-style: italic;
- color: red;
+ color: rgba(255, 0, 0, 0.151);
  }
  article {
  background-color: white;
@@ -42,10 +42,10 @@ body {
  aside {
  background-color: white;
  padding: 1rem;
- border-left: 4px solid red;
+ border-left: 4px solid rgba(255, 0, 0, 0.603);
  }
  th {
- background-color: rgb(192, 188, 188);
+ background-color: rgb(88, 22, 22);
  }
  th, td {
  border: 1px solid black;
@@ -58,10 +58,10 @@ body {
  img {
  max-width: 100%;
  margin-top: 1rem;
- border: 4px solid #f44336;
+ border: 4px solid #b41c11ab;
  border-radius: 8px;
  }
  footer a {
- color: red;
+ color: rgba(255, 0, 0, 0.384);
  text-decoration: none;
  } 
