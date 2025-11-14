@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-   
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      
-      
+    <title>Contador decreciente</title>
 </head>
 <body>
-    <h1>Bienvenidos a JavaScript</h1>
-    <p id="Salida"></p>
-    <h1>Ejercicio: Modificar texto al presionar un botón</h1>
-<p id="texto">Texto original</p>
-<button id="btntexto">Haz click</button>
-    <script src="./practica.js"></script>
-    <p id="texto">Texto original</p>
-<button id="subir">Haz click para subir</button>
-    <script src="./practica.js"></script>
-    <p id="texto">Texto original</p>
-<button id="bajar">Haz click para bajar</button>
-    <script src="./practica.js"></script>
+    <h1 id="contador">10</h1>
+    <button id="boton">Disminuir</button>
+
+    <script>
+        let contador = 10;
+
+        const contadorElemento = document.getElementById("contador");
+        const boton = document.getElementById("boton");
+
+        boton.addEventListener("click", () => {
+            if (contador > 0){
+                contador --;
+                contadorElemento.textContent = contador;
+            } else {
+                alert("El contador ya llegó a 0");
+            }
+        } );
+    </script>
 </body>
 </html>
